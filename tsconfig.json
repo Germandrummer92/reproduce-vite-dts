@@ -1,0 +1,26 @@
+{
+  "exclude": [
+    "dist"
+  ],
+  "compilerOptions": {
+    "target": "es2018",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "baseUrl": ".",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "**/*.d.ts",
+    "**/*.ts",
+    "**/*.cts",
+    "**/*.tsx",
+    "**/*.cjs",
+    "**/*.js",
+    "**/*.mjs"
+  ]
+}
